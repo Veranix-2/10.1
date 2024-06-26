@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+.head {
+    display: flex;
+    gap: 350px;
+    align-items: center;
+    font-size: 15px;
+}
+
+.head nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 470px;
+}
+
+.head a {
+    text-decoration: none;
+    color: white;
+    font-family: monospace;
+}
+
+.s1 {
+    background-image: url(./img/image\ 1\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: cover;
+}
+
+.s1 h1 {
+    font-family: monospace;
+    background-color: #FFC611;
+    width: 604px;
+    height: 103px;
+    font-size: 40px;
+    border-radius: 50px;
+    border: 11px solid #5A5555;
+    display: flex;
+    align-items: center;
+    text-shadow: 0px 4px 4px 10px #0047FF;
+    justify-content: center;
+    margin-left: 300px;
+    margin-top: 170px;
+    margin-bottom: 150px;
+}
+
+.cards {
+    /* margin-bottom: 120px; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.card1 {
+    box-shadow: 8px 7px 20px 0px #FFFFFF;
+    width: 361px;
+    height: 410px;
+    text-align: center;
+    background-color: #1F1F1F;
+}
+
+.card1 h2 {
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    text-shadow: 0px 4px 4px #FFC200;
+}
+
+.s2 {
+    background-color: #000;
+}
+
+.s2 h1 {
+    font-family: Roboto;
+    font-size: 64px;
+    font-weight: 600;
+    color: #5A5555;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.inf1 {
+    display: flex;
+    color: white;
+    gap: 80px;
+    margin-top: 150px;
+}
+
+.t1 {
+    font-size: 27px;
+}
+.btn {
+    font-family: Roboto;
+    font-size: 27px;
+    font-weight: 700;
+    text-shadow: 0px 4px 4px #040404CF;
+    width: 270px;
+    height: 60px;
+    background-color: #FFC200;
+    font-size: 27px;
+    color: #000;
+    box-shadow: 0px 7px 12.8px 0px #FFFFFF;
+    border: none;
+}
+footer{
+    display: flex;
+    background-color: #FFC611;
+    gap: 800px;
+    align-items: center;
+}
+i{
+    font-size: 30px;
+}
+.icon{
+    display: flex;
+    gap: 50px;
+}
+footer img{
+    margin-left: 150px;
+}
